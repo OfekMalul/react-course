@@ -1,0 +1,31 @@
+*,::before,::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding:0;
+}
+
+h1{
+    margin: 0;
+}
+
+.season__display{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+    display: flex;
+    justify-content:space-between;
+}
+.season__display.Winter i{
+    color: lightblue;
+}
+.season__display.Summer i{
+    color: coral;
+}
+.header{
+    align-self:center;
+}
+
