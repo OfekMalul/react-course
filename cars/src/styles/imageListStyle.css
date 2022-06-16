@@ -1,8 +1,12 @@
-img{
-    width: 100%;
-}
+
 .gridView{
     display:grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 10px;
+    gap: 0 10px;
+    grid-auto-rows : 10px;
+}
+
+.gridView img{
+    width: 100%;
+
 }

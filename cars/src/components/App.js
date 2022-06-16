@@ -16,6 +16,8 @@ class App extends React.Component {
     });
     this.setState({ images: response.data.results });
   };
+  //runOnSubmit gets the data and transfer it to onSearchSubmit
+  //images transfers the images data to ImageList
   render() {
     return (
       <div className="ui container" style={{ marginTop: "2rem" }}>

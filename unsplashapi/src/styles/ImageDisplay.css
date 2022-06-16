@@ -1,0 +1,10 @@
+img{
+    width: 100%;
+}
+
+.grid__dispaly{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:  0 10px;
+    grid-auto-rows: 10px;
+}
