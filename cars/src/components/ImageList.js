@@ -8,6 +8,7 @@ const ImageList = (props) => {
     return <ImageCard key={image.id} image={image} />;
   });
   //images is transfered and been shown in the final UI.
+
   return <div className="gridView">{images}</div>;
 };
 export default ImageList;
