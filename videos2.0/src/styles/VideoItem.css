@@ -1,0 +1,36 @@
+.item__container{
+    max-width:1128px;
+    margin: 0 auto;
+    display:flex;
+    justify-content:flex-end;
+}
+.video__item{
+    width:100%;
+    margin-top:1rem;
+    display:flex;
+    cursor:pointer;
+    padding: 0 0 0 0;
+    box-shadow: 4px 5px 4px #C6C6C6, -4px -5px 4px #C6C6C6 ;
+}
+.video__info {
+    display:flex;
+    flex-direction: column;
+}
+.video__header{
+    margin-left: 0.5rem;
+    align-self: flex-start;
+}
+.video__item p{
+    margin-left: 0.5rem;
+    line-height:2px;
+
+}
+.video__date{
+    margin:0rem 0 0.5rem 0.5rem !important;
+    justify-content: flex-end;
+}
+
+
+.video__item img {
+    max-width:200px;
+}
